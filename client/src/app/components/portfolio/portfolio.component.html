@@ -1,0 +1,7 @@
+<ag-grid-angular #agGrid style="width: 800px; height: 300px;" class="ag-theme-balham" [rowData]="rowData"
+    [columnDefs]="columnDefs" [modules]="modules" [rowSelection]="rowSelection" [groupSelectsChildren]="true">
+</ag-grid-angular>
+
+<br>
+<br>
+<button (click)="getSelectedRows()" class=" btn btn-success">Proceed to Sell</button>
